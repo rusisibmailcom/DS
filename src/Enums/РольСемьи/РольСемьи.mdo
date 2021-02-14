@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf047067-0db5-4313-856e-4540db55790b">
+  <producedTypes>
+    <refType typeId="ceefcf3f-59cc-4fbf-9766-6a54820ddb8a" valueTypeId="2e20070c-828b-4ebe-8e1d-887a24c52724"/>
+    <listType typeId="6fa25c7e-7620-40df-bf50-f184514dd8d9" valueTypeId="b5ebd65c-78eb-4e73-a387-57f44ea38c09"/>
+    <managerType typeId="e5d4ebd8-4d39-4aef-acfb-4ec603558653" valueTypeId="e30c4a5c-9c5e-43b3-8ebf-ffcd761a58c4"/>
+  </producedTypes>
+  <name>РольСемьи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роль семьи</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="16845126-8503-474a-85fe-f9918ca29f5e">
+    <name>Отец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отец</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3746f2e1-5289-49b0-83c1-b9dbfce6f40d">
+    <name>Мать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39a4af28-37fa-48dc-b5e5-86ac149b5074">
+    <name>Сын</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сын</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f92f75f2-a46c-4d4e-9fec-51c13c1234c4">
+    <name>Дочь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дочь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a3d3938c-3d8d-4b12-8710-724c404993c1">
+    <name>Дедушка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дедушка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b1ea892-0a88-43ea-8366-344e772008cc">
+    <name>Бабушка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бабушка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="45a82de5-3ac3-4df1-a21b-646594a00148">
+    <name>Внук</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внук</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="77ffb07c-7616-4052-bb1e-fdc856f0418c">
+    <name>Внучка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внучка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

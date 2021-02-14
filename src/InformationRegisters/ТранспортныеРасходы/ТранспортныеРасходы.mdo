@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2e79f9d-5312-4c4b-9f3e-b02a27923ea0">
+  <producedTypes>
+    <selectionType typeId="6ad801fc-591a-41e2-8a50-fc60e28422e2" valueTypeId="aacef19a-b0c4-42be-a6c7-d755fa43abae"/>
+    <listType typeId="2e016c4e-90cc-40dd-a005-ed2874ac9cc2" valueTypeId="2b35749d-973a-4e32-8804-03b0af21f5f4"/>
+    <managerType typeId="941cf1a1-ca1a-43db-a5d0-cf473abedf7a" valueTypeId="3a8bc483-217c-4122-ae96-3248d6d81029"/>
+    <recordSetType typeId="e3e666af-93e4-467e-b90f-2d6daef67216" valueTypeId="9edfaeda-e810-4e1d-be1b-ba5cb5ca935d"/>
+    <recordKeyType typeId="63997c41-2a85-49ef-b8f3-4f51c9597229" valueTypeId="b1bf57a2-6f55-438a-af01-bfcf6fb0f37c"/>
+    <recordType typeId="6c3cead1-3969-4f49-a9f2-35fde33bafe4" valueTypeId="201e1402-d85a-4e99-9ddc-9f37264e7ab1"/>
+    <recordManagerType typeId="78b746fd-86ca-46a7-982f-43818b6c26db" valueTypeId="57e47669-0b27-47c5-8f5d-2bf3f5119e4e"/>
+  </producedTypes>
+  <name>ТранспортныеРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспортные расходы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cb13b7f8-8935-4bae-9e9b-8086e73fe34b">
+    <name>Пробег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пробег</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6672ea95-fc32-46e9-ae3c-bd5ee099024e">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

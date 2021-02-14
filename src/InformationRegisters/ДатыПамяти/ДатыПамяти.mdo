@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7667bd4d-95b2-49af-b687-7ddba222b9f1">
+  <producedTypes>
+    <selectionType typeId="ad58d42e-6dac-484c-8d17-4ab65333af83" valueTypeId="feffbc3f-6954-4874-9293-46a3bdc3d913"/>
+    <listType typeId="84da1d10-9f6f-4470-85d3-fcc72937d5f7" valueTypeId="3a452b59-1910-4a31-9f25-8eaa4501b59c"/>
+    <managerType typeId="56d7649a-624d-48c9-8d30-7d7dfdfbec3a" valueTypeId="6e1e1645-28f2-4981-bcc9-8fb321d16dee"/>
+    <recordSetType typeId="49b9ff6a-39be-4102-b0a0-af6547a84b75" valueTypeId="0ef61499-62f6-444e-be82-86945656ee9f"/>
+    <recordKeyType typeId="4456e632-58b0-44b4-a5a2-c09311921891" valueTypeId="0863d155-6e58-49d6-90ad-c0588da01dc3"/>
+    <recordType typeId="62761f8e-4f2f-40ae-a812-ddfc86a06f6e" valueTypeId="3845e578-ef81-42f6-a4f2-16fa62eac02f"/>
+    <recordManagerType typeId="748653b4-ac1c-496f-bd66-c12dba3a1534" valueTypeId="1d072e39-14a4-44db-a2be-9d36b028b951"/>
+  </producedTypes>
+  <name>ДатыПамяти</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты памяти</value>
+  </synonym>
+  <comment>Дни Рождения,Смерти, памятные даты</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="06e053cf-1898-418c-8fb0-d71f14d46341">
+    <name>ФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Люди</types>
+      <types>CatalogRef.Семья</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a14822bd-1225-4cc1-bd92-23b06043dd6a">
+  <producedTypes>
+    <refType typeId="0c81e494-7dd9-4988-8b17-14db650a38e9" valueTypeId="9151a2c2-8e52-4c71-b877-36cead247677"/>
+    <listType typeId="19f4ffdf-39ae-48f3-94d9-741cc9071b72" valueTypeId="deed4c7a-9bf5-481a-8caa-b3bd3ad12b0e"/>
+    <managerType typeId="2ad7e45b-86a9-465b-83ef-64f41bd7be05" valueTypeId="72800922-c196-47c2-ad2f-65ee914abb18"/>
+  </producedTypes>
+  <name>ВидЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид затрат</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0bd7e8ea-5197-4591-9f26-1818d0c02d5b">
+    <name>Покупки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покупки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3b580d4-2863-41f4-b169-e183e750866e">
+    <name>Расчеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f6ac55f-1722-4e50-a840-c709e501e5c1">
+    <name>Переводы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переводы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d9f0715-9898-44f5-87b5-696e1137092c">
+  <producedTypes>
+    <objectType typeId="99034623-797e-42ca-8a6a-0258243c68ca" valueTypeId="fc438112-6e1a-48aa-9f95-153c4efdcf5d"/>
+    <refType typeId="e3c6f1f2-2356-4cf8-b26d-0dd05bd30ae1" valueTypeId="9290050b-abc1-4b00-9642-e2df23ce0009"/>
+    <selectionType typeId="8098ef35-4b23-450a-9a5d-01e8d7ae61d9" valueTypeId="c0cefd95-a73e-4a3b-9a26-9f6e237a97c5"/>
+    <listType typeId="bc113458-c4c2-44d3-a835-d0b2a1876ef1" valueTypeId="39a834e3-ea01-498a-b807-3cc55a074da7"/>
+    <managerType typeId="1d4aaf98-0237-4de2-ae62-6b6c912b9b9c" valueTypeId="1121db27-2478-4a1c-ac73-4bbbcddf3d84"/>
+  </producedTypes>
+  <name>Дом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Дом.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Дом.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Улица</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

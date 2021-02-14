@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="954b5d10-fdd5-4777-8d87-e598a4cb71fd">
+  <producedTypes>
+    <objectType typeId="00da7449-66eb-40d4-9d54-0083e23c3ede" valueTypeId="01561da7-e8d9-4d26-af51-8b58768e66f2"/>
+    <refType typeId="34ce127e-20c8-49e8-9bdf-65e01ebdf392" valueTypeId="42d64073-0dc6-49d7-bfc2-91a02a837608"/>
+    <selectionType typeId="aecada0c-6e9a-4e76-be45-533bf1613c3b" valueTypeId="277e9918-2401-4071-9711-a8ae881383c9"/>
+    <listType typeId="aea6abed-4695-4da3-a554-cf4737112a41" valueTypeId="7706a638-771a-4a8e-949f-69980567c06e"/>
+    <managerType typeId="017ab258-a0ff-4ecd-9b91-ac8103621868" valueTypeId="2de37f0e-5d33-42e1-a7b1-978b5db6fb8a"/>
+  </producedTypes>
+  <name>Районы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Районы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Районы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Районы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Район</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Районы.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="2ab27b1d-ee45-4de4-8a14-f3d8be2f59f6">
+    <name>ПолныйАдрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полный адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f2ed5cd0-b00f-46b1-8234-37286ce81690">
+    <name>Район</name>
+    <synonym>
+      <key>ru</key>
+      <value>Район</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9eba9378-f562-4c6d-946a-71b626eee4d2">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

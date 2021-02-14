@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3067d88-ab95-4c06-a840-65cad41adc63">
+  <name>Справочная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочная</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ЕденицаИзмерения</content>
+  <content>Catalog.Места_Объекты</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Ценность</content>
+  <content>Catalog.Районы</content>
+  <content>Catalog.Производители</content>
+  <content>Catalog.Диагноз</content>
+  <content>Catalog.Лекарства</content>
+  <content>Catalog.Семья</content>
+  <content>Catalog.ВидДеятельности</content>
+  <content>Catalog.КонтрагентМесто</content>
+  <content>Catalog.Цели</content>
+  <content>Catalog.ДомашниеЖивотные</content>
+  <content>Catalog.Проекты</content>
+  <content>Catalog.Дом</content>
+  <content>Catalog.Улица</content>
+  <subsystems>Контрагенты</subsystems>
+  <subsystems>ФизЛица</subsystems>
+  <subsystems>МЦ</subsystems>
+  <subsystems>ДС</subsystems>
+</mdclass:Subsystem>

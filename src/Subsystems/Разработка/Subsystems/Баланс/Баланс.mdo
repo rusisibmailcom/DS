@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63ffc317-8abb-4423-90c9-abdc846ae930">
+  <name>Баланс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Баланс</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.Затраты</content>
+  <content>Document.Приход</content>
+  <content>AccumulationRegister.РН_МестаНакопленияДенег</content>
+  <content>Catalog.ИсточникХраненияДС</content>
+  <content>Document.Перечисления</content>
+  <content>Document.ВводОстатков</content>
+  <content>InformationRegister.РС_Остатки_ДС_ПоВидуНакопления</content>
+  <parentSubsystem>Subsystem.Разработка</parentSubsystem>
+</mdclass:Subsystem>

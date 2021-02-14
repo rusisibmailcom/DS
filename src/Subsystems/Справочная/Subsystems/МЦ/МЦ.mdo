@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b99dc856-6960-45c3-9a8e-cd58038b5df7">
+  <name>МЦ</name>
+  <synonym>
+    <key>ru</key>
+    <value>МЦ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Номенклатура</content>
+  <parentSubsystem>Subsystem.Справочная</parentSubsystem>
+</mdclass:Subsystem>

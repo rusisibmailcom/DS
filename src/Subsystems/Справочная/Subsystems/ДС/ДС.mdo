@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75a64fa1-5ae3-463b-87d9-e21e6af36261">
+  <name>ДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>ДС</value>
+  </synonym>
+  <comment>Денежные средства</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <parentSubsystem>Subsystem.Справочная</parentSubsystem>
+</mdclass:Subsystem>

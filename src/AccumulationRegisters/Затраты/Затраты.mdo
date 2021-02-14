@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc2ec991-64f9-492e-9225-e1aafd4681ba">
+  <producedTypes>
+    <selectionType typeId="de5ffe37-96ac-4223-bfed-1a6d6f64a906" valueTypeId="18402c1b-ac98-4941-b8c2-710189e35991"/>
+    <listType typeId="979fe471-c9c4-4309-9600-abf0fa8369aa" valueTypeId="cdc6da83-2ce9-448e-83fe-d4268827bb4a"/>
+    <managerType typeId="19f45232-9d14-4626-8f79-c0a0c2f81366" valueTypeId="207d03c6-def1-43b4-af13-898a12281e42"/>
+    <recordSetType typeId="8ed88184-1a24-442b-a22b-ec8e26c9d771" valueTypeId="9a6a6db6-a673-440e-b7ba-c0c64b5c2be2"/>
+    <recordKeyType typeId="86518cc0-2098-41ff-a804-f5a32eee3e5f" valueTypeId="385a4dcd-c771-4ef5-81ab-89ef6700f455"/>
+    <recordType typeId="edd395b2-1908-4163-9a2d-4cf3fab5eb30" valueTypeId="a6dec483-32b5-4890-b3cb-de152c5739a4"/>
+  </producedTypes>
+  <name>Затраты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Затраты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="94f5eb10-5f98-418a-921d-7175f48923e9">
+    <name>КолВоСравнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кол во сравнения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="8d39f238-d662-4cf5-9ab4-5abd703bf74f">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="1c06fb84-cb3e-444f-8e05-04b0ee4a59d3">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="50a7319a-1b6c-4895-bd32-dee972588fea">
+    <name>ОснЕдИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Осн ед изм</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕденицаИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="fc340339-1bb3-4bc4-ae7c-9b0d3b88b9d2">
+    <name>ЕдИзмСравнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Еденица измерения в сравнении</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕденицаИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="95065f9d-973f-480e-a98f-90933c9ccda3">
+    <name>Ценность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Ценность</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="819855c7-e3e0-4a2f-8ba7-eee055731791">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="cfafe4e9-0efe-4449-8756-4822139f794b">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрагентМесто</types>
+      <types>CatalogRef.ФизЛица</types>
+      <types>CatalogRef.Люди</types>
+      <types>CatalogRef.Семья</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="c5bc5bdb-2f53-4315-b773-1cfa41636fb2">
+    <name>ОбъектПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект платежа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДомашниеЖивотные</types>
+      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.Места_Объекты</types>
+      <types>String</types>
+      <types>CatalogRef.Люди</types>
+      <types>CatalogRef.Проекты</types>
+      <types>CatalogRef.Семья</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e865d7be-250f-4cf6-b237-1c63cde85eba">
+    <name>ГруппаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппаНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="a4b27632-9929-4502-9398-eaa944b29251">
+    <name>ЦельПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цель платежа</value>
+    </synonym>
+    <comment>Зачем. дял чего во имя чего покупка</comment>
+    <type>
+      <types>CatalogRef.Цели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

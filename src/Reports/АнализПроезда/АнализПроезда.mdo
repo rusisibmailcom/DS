@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="770f295a-49b2-4709-89d4-5221dc692c6e">
+  <producedTypes>
+    <objectType typeId="100ff4c2-bb93-4c68-990f-3038e4391925" valueTypeId="6ad9bed6-5a66-4e69-a5f8-68f530df7035"/>
+    <managerType typeId="ad4983d5-0b18-4447-b2a5-4126e2a7409e" valueTypeId="76190b0c-9636-423e-911e-b91124effbed"/>
+  </producedTypes>
+  <name>АнализПроезда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет &quot;Анализ проезда&quot;</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализПроезда.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="879eb599-22a3-4d11-a1b0-d54730b1ea99">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

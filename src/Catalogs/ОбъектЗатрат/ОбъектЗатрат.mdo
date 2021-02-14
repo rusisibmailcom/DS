@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ace0ecf5-1cfa-4797-ab39-a7922ec3f117">
+  <producedTypes>
+    <objectType typeId="ab4a4ced-e103-4685-841e-df93c463b022" valueTypeId="e51f40b8-3bc4-4980-b223-71c63338d149"/>
+    <refType typeId="130b801c-e30b-4b9e-b718-b95ed614a285" valueTypeId="25a49b0b-60c1-401e-8abc-2338a4d8bdc6"/>
+    <selectionType typeId="9a5e0e5b-8853-4f93-9f36-30ca3b87b066" valueTypeId="f6882f25-e042-4bf0-9f6a-c9d9fe122c3d"/>
+    <listType typeId="645b25a4-8391-4bcb-9c16-019404e49f1a" valueTypeId="4c31b511-0531-4d83-80c9-dd2d8daf4da6"/>
+    <managerType typeId="62d5468d-d7fb-49d9-ac08-bfb73c7df879" valueTypeId="39e81578-0797-46c7-b408-38c205538c39"/>
+  </producedTypes>
+  <name>ОбъектЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объект затрат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОбъектЗатрат.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОбъектЗатрат.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

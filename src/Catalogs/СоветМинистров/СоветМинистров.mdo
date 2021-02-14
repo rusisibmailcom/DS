@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0c4df31-99d9-4219-928c-53059a219b67">
+  <producedTypes>
+    <objectType typeId="a34378ef-d783-4137-b1b0-c7826ac38bb1" valueTypeId="c91c3012-1061-4166-acf8-4f9c262df42f"/>
+    <refType typeId="33582507-7801-4f3e-82b7-ef51788665db" valueTypeId="227a05a9-e6c8-4a4e-ac5b-6c8d1baa3b58"/>
+    <selectionType typeId="0d353cb8-2d46-4a7b-a918-b1f02c36901e" valueTypeId="dba10c81-9def-4a2e-af06-57c017e11a35"/>
+    <listType typeId="4b97e3be-5c59-4738-b2c3-4f3e0f66b452" valueTypeId="054c5015-c805-4a08-bd84-a520765da547"/>
+    <managerType typeId="64d21319-adab-4bd2-83e4-b6aa82c34479" valueTypeId="fe5d0a89-b304-47d1-a4e2-0d51d867d016"/>
+  </producedTypes>
+  <name>СоветМинистров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Совет министров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СоветМинистров.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СоветМинистров.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>2</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="13d58daa-f78a-45e8-af29-c095d9258dc1">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>350</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="63a5d4f1-2fc2-4dd6-9e25-d422a36659a5">
+    <name>Отвечает</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отвечает</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6c0aa9c6-a87a-4396-bf9a-5b34b109d712">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="60fd9eae-4a95-4938-bbeb-70d216cd7773">
+    <name>ОписаниеРасходовВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание расходов времени</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="06ba5164-1697-4aa2-ba3b-796e6a905a76">
+    <name>ОписаниеРасходовДенег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание расходов денег</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

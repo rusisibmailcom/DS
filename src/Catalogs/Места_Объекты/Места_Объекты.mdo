@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3645cfb-21c0-43f3-9eaf-915df8986866">
+  <producedTypes>
+    <objectType typeId="bfde0b59-4a6d-4ebf-87c6-d28ee36da667" valueTypeId="3968030f-f217-47b1-9299-1769f77c0b46"/>
+    <refType typeId="874ef1a1-93a2-4840-b54b-c60ae5644d6e" valueTypeId="14596754-8fe3-4807-a3b1-7cdfe8939f51"/>
+    <selectionType typeId="86b22e5c-ec79-4775-b53f-5fb832a84326" valueTypeId="d536afd3-390c-49f7-9c61-b646a90d686f"/>
+    <listType typeId="32dbae33-7135-40b2-9500-594fe307f276" valueTypeId="897a03e3-8a4f-4141-8536-56461beb3a8f"/>
+    <managerType typeId="4b2db576-42d7-4688-81cd-3180235c1fb5" valueTypeId="cd5ee535-2de5-4c7c-a758-b5cb8bbaa929"/>
+  </producedTypes>
+  <name>Места_Объекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Места объекты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Места_Объекты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Места_Объекты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Место</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <codeSeries>WithinSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Места_Объекты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.Места_Объекты.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="bd8c1162-8129-446e-8ced-33da9493f757">
+    <name>Район</name>
+    <synonym>
+      <key>ru</key>
+      <value>Район</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Районы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cda0b2a7-a2f3-4fe4-9e6e-c6a40f80d34b">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3ca88124-be8e-4a60-957e-12aa30d526e7">
+    <name>ПолныйАдрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полный адрес</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Адрес</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2ef0c882-cf98-4fd3-b4bb-98eb77391d48">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="17e04c1f-8e35-4dc0-b517-62efa4bc5343">
+    <name>ВидМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид места</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидМеста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <quickChoice>Use</quickChoice>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6b510ddd-87d4-43c6-8a5a-0e412b631282">
+    <name>УлицаДом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Улица дом</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c5dabe09-a65b-45ab-85c6-e35ab942c60d">
+    <name>Улица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Улица</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Улица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.Места_Объекты.Attribute.Район</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a4648d64-ed25-41e3-a740-684dbcfa95a5">
+    <name>Дом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дом</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Дом</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.Места_Объекты.Attribute.Улица</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="85e11d88-9630-476c-be88-3a078731648f">
+    <producedTypes>
+      <objectType typeId="87c28710-40ed-4b62-bb8a-476a8e933d97" valueTypeId="e7fcbf30-cc1f-4219-a8e1-5abdefe70708"/>
+      <rowType typeId="1a1b5021-bb4d-47ff-b101-cfbfbb032829" valueTypeId="305a4de6-a4fd-47e1-8b70-327f4e24031d"/>
+    </producedTypes>
+    <name>ВидыДеятельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды деятельности</value>
+    </synonym>
+    <attributes uuid="7029cd95-a6c2-402f-b357-a37301b36e02">
+      <name>ВидДеятельности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид деятельности</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидДеятельности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="d0d98b6c-3159-4aab-96a5-cb6212a5d5b0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="583a1677-5968-482d-b2e2-b5f93e5c5c97">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

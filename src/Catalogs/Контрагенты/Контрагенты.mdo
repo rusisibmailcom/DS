@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32636cac-cdb6-408a-8056-b81a4ce7f76e">
+  <producedTypes>
+    <objectType typeId="63fb6f98-aa8c-489b-aedf-fbb6ac5b56f5" valueTypeId="f3a7ffba-0f1b-4e16-8153-65a004d88a82"/>
+    <refType typeId="7742ccb4-4fb9-4af6-943e-89cc80efd56d" valueTypeId="2f6bc5c0-ad33-4f9f-951f-5c3a57194b08"/>
+    <selectionType typeId="3489b1b9-60fa-46ce-aa4d-483cbc575bcf" valueTypeId="78a7edf9-bc9f-4c42-8342-8acc64e3f9ac"/>
+    <listType typeId="febd6241-5541-440a-8471-d377f21fdcdf" valueTypeId="df9cc0fb-10db-4255-b4fd-0c33442eea93"/>
+    <managerType typeId="fbb88aeb-bb63-42f2-9213-b7d261a379db" valueTypeId="f3f33ad1-7b1c-425b-907b-3c9b51fde1ca"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Контрагент</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Контрагенты.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Контрагенты.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="60ea5ee4-3f80-4036-81d2-892ca121484f">
+    <name>Район</name>
+    <synonym>
+      <key>ru</key>
+      <value>Район</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Районы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="62f0156b-ec40-4699-a632-27a864ff7256">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0f16edd6-166c-4068-ba6b-98c0cff2c633">
+    <name>ПолноеНазвание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное название</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="de4a67be-0ec5-4a6c-a303-c7f67ca4afcd">
+    <name>РежимРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим работы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b24dbf18-b67c-424e-ab70-527968ee0e31">
+    <name>Примечание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Примечание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4b2cff4c-362d-49ab-92a5-75d91eda7f07">
+    <name>ТелефонОсновной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон основной</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="920df64a-ef42-4a6e-ab0a-740faefe21d1">
+    <name>ОсновнойВидДеятельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной вид деятельности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидДеятельности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="27393f3c-ceac-408b-baa8-888c38e3a18d">
+    <producedTypes>
+      <objectType typeId="bc5e5579-1c01-4a46-a613-a2da5dcbc81f" valueTypeId="23e8d84c-e846-4bba-bd1d-1fcfe21e08e7"/>
+      <rowType typeId="8a2a2b96-bf34-4c5e-9771-af33fbcab130" valueTypeId="70c9123c-d1dc-4892-b3fc-1c638d681f73"/>
+    </producedTypes>
+    <name>ВидыДеятельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды деятельности</value>
+    </synonym>
+    <attributes uuid="91939317-88ca-4375-bb51-dad7c2cf4fa1">
+      <name>ВидДеятельности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид деятельности</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидДеятельности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5bf2e7b5-c683-4a4f-96ec-a29a21ab0131">
+    <producedTypes>
+      <objectType typeId="0be35bb2-6299-495c-a0fc-258213304ef0" valueTypeId="7c0670b6-00e7-449e-b077-b72e85f01ca7"/>
+      <rowType typeId="58b2b112-ccf9-4021-9e55-8f7b5f218696" valueTypeId="9df9b483-0355-4067-bedf-2db04067ba77"/>
+    </producedTypes>
+    <name>КонтактнаяИнфо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактная инфо</value>
+    </synonym>
+  </tabularSections>
+  <forms uuid="32435231-310b-49c8-b53b-baeca20d7384">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9f0ab1cc-cf9b-4aa4-9d8d-865647d28063">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

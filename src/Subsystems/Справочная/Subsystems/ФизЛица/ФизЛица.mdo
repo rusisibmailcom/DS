@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efc87414-e519-48b6-89ac-baf38f316535">
+  <name>ФизЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Физ лица</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ДомашниеЖивотные</content>
+  <content>Catalog.Семья</content>
+  <content>Catalog.ФизЛица</content>
+  <content>Catalog.Люди</content>
+  <parentSubsystem>Subsystem.Справочная</parentSubsystem>
+</mdclass:Subsystem>

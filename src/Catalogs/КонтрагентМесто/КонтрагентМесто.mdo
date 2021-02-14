@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2d8a6f1-3925-4ef9-ace1-9fc02307b076">
+  <producedTypes>
+    <objectType typeId="0f1d4ffb-70c7-4fea-b191-0289275701cc" valueTypeId="2f3a40ec-5d60-4d62-a885-e6eec277a743"/>
+    <refType typeId="211bc111-c25c-46ed-9023-ce6028a85c1b" valueTypeId="01b90cf2-3106-4087-a854-0ed3ccd5a2c4"/>
+    <selectionType typeId="aebbd665-c8e4-4d13-b775-06cdeae17ca8" valueTypeId="1bdcdaa6-1173-4f64-8a00-bb5982066ed1"/>
+    <listType typeId="59690375-e66c-471d-a535-5c8667322a6d" valueTypeId="a588d40a-e238-4d8b-a06c-a0783d9207fe"/>
+    <managerType typeId="9c81790e-6ace-4882-af4c-6cff09b958f1" valueTypeId="001d2bf3-d1a2-4289-8460-c9cdb1a2f82e"/>
+  </producedTypes>
+  <name>КонтрагентМесто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагент место</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КонтрагентМесто.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>5</codeLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КонтрагентМесто.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.КонтрагентМесто.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="63cd85d8-9d4c-4b84-ae5d-ec24668bf8da">
+    <name>Район</name>
+    <synonym>
+      <key>ru</key>
+      <value>Район</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Районы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ef616c06-7903-4a5a-9ff9-07eaba1d4384">
+    <name>УлицаДом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Улица дом</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="24836d4b-420c-4e40-bd7a-2e6d546798cf">
+    <name>Улица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Улица</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Улица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.КонтрагентМесто.Attribute.Район</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2e3260a4-078e-41a6-8044-9cc171d206aa">
+    <name>Дом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дом</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Дом</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.КонтрагентМесто.Attribute.Улица</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6ba5ca72-5add-4145-8036-c227e3646707">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="66bf023f-675d-4837-90ad-315a3f550ff8">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

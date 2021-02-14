@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65fab491-acb4-40c6-8fdb-9fd82a1c5fd8">
+  <producedTypes>
+    <refType typeId="9ecd0dd2-650a-4be4-9572-02bb1d37dea8" valueTypeId="37336ec3-7253-4d78-8ed8-5384f02748f8"/>
+    <listType typeId="1f09b64d-6c72-47c0-b3df-5b7f8e74f46b" valueTypeId="0a76893e-d104-4ca6-9aea-0a03cce0b719"/>
+    <managerType typeId="552b9057-fe91-43b6-a892-7235a2d0e4c8" valueTypeId="92385a86-9d90-49f1-b92e-b4918de15f30"/>
+  </producedTypes>
+  <name>ВидМеста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид места</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8b12b153-f3aa-420e-89d6-8f10017aa04b">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="387cfa36-4f16-43d3-9417-04a27d137305">
+    <name>Место</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59d27256-47a6-4562-87e2-94b64664e0b0">
+  <producedTypes>
+    <objectType typeId="276a5bd7-5123-4bd4-b430-9fe6b72a1666" valueTypeId="081c82d1-2dc9-4696-99e7-d936e50b87c5"/>
+    <refType typeId="356d1fd7-01d6-4522-9d88-24dc7d16cff9" valueTypeId="1f8107c9-3cdd-46d6-b116-cc7eb534e6a0"/>
+    <selectionType typeId="19b4e20a-307c-40ec-b773-17e36e0e43fd" valueTypeId="553ac113-2b51-492f-b4d5-831e57cb2009"/>
+    <listType typeId="0d5fdb7f-e211-4314-9cb9-8f08cc293fae" valueTypeId="abdc75d1-00c5-4299-8249-b2921fc041a6"/>
+    <managerType typeId="ad8e62df-03a8-4481-98d9-1ef976d3a24d" valueTypeId="05060066-6565-4043-9c17-dd3397e86086"/>
+  </producedTypes>
+  <name>ЕденицаИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Еденица измерения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕденицаИзмерения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЕденицаИзмерения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Ед.Изм.</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="5d4ade51-b39d-4348-b0c3-8142f38b3449">
+      <name>Килограмм</name>
+      <description>кг.</description>
+      <code xsi:type="core:StringValue">
+        <value>166</value>
+      </code>
+    </items>
+    <items id="2e98878f-67cb-4076-a709-0a18e47688c4">
+      <name>Литр</name>
+      <description>л.</description>
+      <code xsi:type="core:StringValue">
+        <value>112</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b88d1a16-9bb1-4f54-9eca-2e58b777c508">
+  <producedTypes>
+    <objectType typeId="c939510e-7276-4881-bc8d-2341aeb9763a" valueTypeId="e964df30-abc2-4856-9f75-49c2e0fe2cba"/>
+    <refType typeId="0565eeea-18aa-41e0-99b0-40925a609b84" valueTypeId="2c08a1d7-7a2c-4a8e-bf33-c98c60551721"/>
+    <selectionType typeId="668600cd-b1ad-4b3f-91d9-93b8bf01eb98" valueTypeId="89b3898f-9164-4cea-a547-1945845231d2"/>
+    <listType typeId="aece47a6-2ba8-4b15-aaa5-c79b813f897e" valueTypeId="4c64bf59-aea6-44df-857b-4d56c695fd53"/>
+    <managerType typeId="ea24dbdc-74bd-481d-b9f5-175ddba62d47" valueTypeId="ae276bef-70cc-4c0c-8253-57e145250531"/>
+  </producedTypes>
+  <name>Банк</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банк</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Банк.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Банк.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="be29f979-e879-4e96-a498-d215b103fb7c">
+      <name>АльфаБанк</name>
+      <description>Альфа-Банк</description>
+      <code xsi:type="core:StringValue">
+        <value>00000</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="9519dbc7-c9e9-40e1-80f7-cd50f1273056">
+    <name>Реквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизиты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

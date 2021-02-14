@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6a92860-3b2f-44fa-8a53-47b0ae2ad2ff">
+  <producedTypes>
+    <objectType typeId="2894ebde-66c4-4797-b547-7008ad25723b" valueTypeId="c163502c-7b27-4886-b0a1-bbf6e5f46629"/>
+    <refType typeId="2bfc6eb5-ad73-4bb8-9a7b-64706ebb0772" valueTypeId="92175b7a-f5f7-4392-8d8e-2c4750be88d2"/>
+    <selectionType typeId="2e53cf31-2a8c-4115-9cc8-259a90a5d809" valueTypeId="5563b947-7950-4f53-be55-417f548a971d"/>
+    <listType typeId="02f2f9a4-ca6e-49b3-b7a2-02411e6a59ac" valueTypeId="8fdfc4b9-83b4-4779-b904-900c9666f0bd"/>
+    <managerType typeId="0111ee80-3a24-4722-b896-0fe97ab537b0" valueTypeId="0aa0a2f7-8882-4ab9-925f-ba40e12db2cb"/>
+  </producedTypes>
+  <name>РегистрацияСобытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация события</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РегистрацияСобытия.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.БюджетРесурсов</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

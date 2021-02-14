@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9dcd06d0-fed6-46ec-ac7b-b4e226d675c9">
+  <producedTypes>
+    <objectType typeId="3167ab7a-3087-4829-805e-cb22450335d3" valueTypeId="935a59c2-84a4-4cba-84dc-4cf71e0fb8c4"/>
+    <refType typeId="df314cc6-db8f-47f1-b9e5-8b8978398149" valueTypeId="11b849a0-e503-42db-8853-e0d6f68b3669"/>
+    <selectionType typeId="75e89800-6aea-478c-96aa-d76b07c1d538" valueTypeId="82a3bc49-1cb5-4b14-a942-e9b87ea79f56"/>
+    <listType typeId="b10b7e36-b4fd-497f-9c54-a2f9878d83a8" valueTypeId="8426f4c5-2747-435d-a9d0-6397daab3e96"/>
+    <managerType typeId="81848d03-e178-46e7-a953-1720a11c7fa4" valueTypeId="7e6a3b0d-94ac-42d5-b62c-aad35c0eb820"/>
+  </producedTypes>
+  <name>ВидДеятельности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид деятельности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидДеятельности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидДеятельности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="a94608d7-fc77-439e-9f48-0b4f59395f6e">
+      <name>Продажи</name>
+      <description>Продажи</description>
+      <code xsi:type="core:StringValue">
+        <value>00001</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="448974ac-05fa-4c65-b8a2-60d55d165368">
+        <name>АвтоТовары</name>
+        <description>Авто товары</description>
+        <code xsi:type="core:StringValue">
+          <value>00009</value>
+        </code>
+      </content>
+      <content id="139c179d-d4ca-4c52-9dd0-425229644406">
+        <name>АЗС</name>
+        <description>АЗС</description>
+        <code xsi:type="core:StringValue">
+          <value>00010</value>
+        </code>
+      </content>
+      <content id="15f134ca-d4c0-4a81-a765-4c6e46bb7b23">
+        <name>Медикаменты</name>
+        <description>Медикаменты</description>
+        <code xsi:type="core:StringValue">
+          <value>00008</value>
+        </code>
+      </content>
+      <content id="8d34d0a2-eb57-46df-9d32-fb6b46f945f7">
+        <name>Продовольственные</name>
+        <description>Продовольственные</description>
+        <code xsi:type="core:StringValue">
+          <value>00004</value>
+        </code>
+      </content>
+      <content id="b4c3dd52-eb71-4a51-b31d-824ac82ac91d">
+        <name>ДетскиеТовары</name>
+        <description>Строительные материалы</description>
+        <code xsi:type="core:StringValue">
+          <value>00006</value>
+        </code>
+      </content>
+      <content id="9f3e9f98-498a-43d3-b4b2-6b7c6b8fd045">
+        <name>СтроительныеТовары</name>
+        <description>Строительные товары</description>
+        <code xsi:type="core:StringValue">
+          <value>00007</value>
+        </code>
+      </content>
+      <content id="f8943453-01a6-4800-91f3-0e01d0766b12">
+        <name>Хозяйственные</name>
+        <description>Хозяйственные</description>
+        <code xsi:type="core:StringValue">
+          <value>00005</value>
+        </code>
+      </content>
+    </items>
+    <items id="4fa474d7-4f10-497e-a428-8d594e9af25e">
+      <name>Скупка</name>
+      <description>Скупка</description>
+      <code xsi:type="core:StringValue">
+        <value>00003</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="11f094e7-7dc9-45e0-b532-a8e3e6d9e536">
+      <name>Услуги</name>
+      <description>Услуги</description>
+      <code xsi:type="core:StringValue">
+        <value>00002</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="9026d0eb-793d-4045-8e8d-5fad3baf1d9d">
+        <name>АвтоСервис</name>
+        <description>Авто сервис</description>
+        <code xsi:type="core:StringValue">
+          <value>00014</value>
+        </code>
+      </content>
+      <content id="405e94f7-d687-438e-abdd-5fc80382d19f">
+        <name>ЖилищноКомунальные</name>
+        <description>Жилищно комунальные</description>
+        <code xsi:type="core:StringValue">
+          <value>00013</value>
+        </code>
+      </content>
+      <content id="b25475c3-f165-4139-8790-18a91a08a88a">
+        <name>Интернет</name>
+        <description>Интернет</description>
+        <code xsi:type="core:StringValue">
+          <value>00011</value>
+        </code>
+      </content>
+      <content id="42882570-dc9e-4e4c-b1f6-7c0f9b5a50b3">
+        <name>Медицинские</name>
+        <description>Медицинские</description>
+        <code xsi:type="core:StringValue">
+          <value>00012</value>
+        </code>
+      </content>
+    </items>
+    <items id="a2e63099-d1d2-4647-869a-1a6937cad259">
+      <name>НалоговыеСборы</name>
+      <description>Налоговые сборы</description>
+      <code xsi:type="core:StringValue">
+        <value>00015</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="3d905ed2-3174-4b0b-837e-1322db1e4973">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>350</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

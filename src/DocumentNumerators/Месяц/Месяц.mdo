@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentNumerator xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5648c2ae-8609-4590-b38e-7cec64e8033d">
+  <name>Месяц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Месяц</value>
+  </synonym>
+  <numberType>String</numberType>
+  <numberLength>6</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Month</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+</mdclass:DocumentNumerator>

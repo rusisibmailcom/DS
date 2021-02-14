@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a95832b-2626-487f-81ae-151e82e08583">
+  <producedTypes>
+    <selectionType typeId="1a6c7b39-1b94-4d67-bc46-d2edff0f6c1c" valueTypeId="ae4fc088-3012-44f7-9e73-1f55468f3327"/>
+    <listType typeId="3c01e1a6-02e8-44a2-83b2-cf434e1f229b" valueTypeId="e7a9eb5d-eed5-4d6f-8c43-3d00b85ea4a1"/>
+    <managerType typeId="1392e369-d658-4f15-999f-34368138f55b" valueTypeId="f0ebc8fd-60d5-41db-bc4a-19c100162829"/>
+    <recordSetType typeId="d1ef249b-8b52-4842-b9cf-beaa21667cf0" valueTypeId="75241636-f21b-48e1-af6e-2085f7310c24"/>
+    <recordKeyType typeId="5601c895-3012-4d2c-a01e-78e294f66609" valueTypeId="5ee0f304-e822-4279-afef-f76244cca777"/>
+    <recordType typeId="7d1b232c-f3b9-4aac-a55c-f93ad6aefe34" valueTypeId="11d1ef95-b9c6-4dfe-b978-2d89b906752c"/>
+    <recordManagerType typeId="804de8bc-9d8c-4022-92d4-41474272b518" valueTypeId="8e31014f-bbdd-4f11-a274-da58e0977288"/>
+  </producedTypes>
+  <name>События</name>
+  <synonym>
+    <key>ru</key>
+    <value>События</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="05c6c818-c15c-4c50-b7ab-5e6fc3701326">
+    <name>ФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДомашниеЖивотные</types>
+      <types>String</types>
+      <types>CatalogRef.Люди</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

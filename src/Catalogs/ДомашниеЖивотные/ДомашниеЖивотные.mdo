@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="acacf362-0e97-4789-88a1-c14733b33043">
+  <producedTypes>
+    <objectType typeId="c3113ac0-bfc1-4c50-b5c7-350f6ba5414e" valueTypeId="8bc366a4-5a0b-4c87-b9e3-518c034647a9"/>
+    <refType typeId="34808ae0-831a-4084-92b8-37f424c3fb94" valueTypeId="a769d807-d0ee-4d8a-bd1c-a26a761d62d1"/>
+    <selectionType typeId="e13e7a23-3179-4400-aa07-04f2e9f69fbe" valueTypeId="98ce5ec2-4360-442b-ab5c-54e979e6414e"/>
+    <listType typeId="518c4cbc-da67-48bd-bb06-183e42548297" valueTypeId="70e4e6d5-244d-49a4-9688-ff3971e9d9d7"/>
+    <managerType typeId="60da7b00-d457-4d0c-8eb6-169bbcb32a83" valueTypeId="cb293e22-c363-4a55-ac9f-e08f1f1b56aa"/>
+  </producedTypes>
+  <name>ДомашниеЖивотные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Домашние животные</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДомашниеЖивотные.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДомашниеЖивотные.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Семья</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b2a82e88-f977-46d7-adaa-42cc9564f79d">
+    <name>ДатаРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата рождения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

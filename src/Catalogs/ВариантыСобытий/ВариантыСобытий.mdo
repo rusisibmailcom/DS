@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac107e24-1bf3-433a-8903-e207c90b419d">
+  <producedTypes>
+    <objectType typeId="5818c72a-c427-4893-92dd-c3a936ae14b1" valueTypeId="562c98f1-be39-474a-8082-91b32f079365"/>
+    <refType typeId="b93c41c3-d3bc-43f5-b9f7-4a305f3d54fe" valueTypeId="75478c9f-23c7-4067-9fdb-282014f99cef"/>
+    <selectionType typeId="ea9b46c5-a935-4724-99a0-12bd7f67e727" valueTypeId="af5b04a0-9e77-4142-8e64-9421fe0def81"/>
+    <listType typeId="eb575472-a3d0-46bf-abf3-6fe8b2a042f4" valueTypeId="3cff0d19-9c10-4110-9b28-a2a1c03569cf"/>
+    <managerType typeId="e2695e2f-a3e5-4bba-baa2-b036fbf885cb" valueTypeId="2e66330b-3330-4cd6-9462-6f8c21dc111f"/>
+  </producedTypes>
+  <name>ВариантыСобытий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты событий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВариантыСобытий.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВариантыСобытий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.События</owners>
+  <codeLength>5</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <codeSeries>WithinSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5569d6da-d38d-452f-b39c-f2d4aa1a2ab6">
+  <producedTypes>
+    <objectType typeId="c5a3f1bb-100e-48ef-87f6-ac6d103f7e0c" valueTypeId="bfd48401-bc46-4b26-8af2-90b6f9ff92f7"/>
+    <refType typeId="486eeafd-e51d-4deb-b168-5a57b3149789" valueTypeId="810b3f58-736d-4176-b096-5c3d4bce1bc7"/>
+    <selectionType typeId="e73bebf6-2e38-4c02-aa34-b2fa18b67ad3" valueTypeId="2c6d58cb-ac61-43c9-9158-2237a328d1dc"/>
+    <listType typeId="b8739a7e-4ae8-4d8b-b011-db7e475c781a" valueTypeId="c245b00a-c27b-4e0b-8ba3-72f0f6d743da"/>
+    <managerType typeId="7d66cb4c-c463-4f8c-90a6-6b33eb2c0028" valueTypeId="ee52f1fa-ed06-452e-9877-e9f0eb61f88d"/>
+  </producedTypes>
+  <name>ИсточникХраненияДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Источник хранения ДС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИсточникХраненияДС.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИсточникХраненияДС.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Семья</owners>
+  <codeLength>3</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИсточникХраненияДС.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="0d82aab6-edf3-4e0c-84a1-bd96a308bcc1">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5fa2e891-02f5-47e8-99a3-f21f4cffccfd">
+    <name>ВидДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид ДС</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Вид_ДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <quickChoice>Use</quickChoice>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eb5f0e8c-ccb9-414e-96a7-dc3e5f1f8d46">
+    <name>ИмяКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя карты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5ad97f5d-079b-426a-b9a4-87e74f55af66">
+    <name>Банк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Банк</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <quickChoice>Use</quickChoice>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d83ce73a-e347-4f2a-8970-99c18eb1256f">
+    <name>НомерКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер карты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>19</length>
+      </stringQualifiers>
+    </type>
+    <mask>9999 9999 9999 9999</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c9e0be92-60d2-4d12-9eac-d0c28b026461">
+    <name>СрокДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок действия</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=MM/гг</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=MM/гг</value>
+    </editFormat>
+    <mask>С</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c313aecd-aeef-4b93-953d-360d00f1f018">
+    <name>РасчетныйСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетный счет</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>24</length>
+      </stringQualifiers>
+    </type>
+    <mask>9999 9999 9999 9999 9999</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="16c2bc48-bba9-4b39-82d8-fd29198e91c8">
+    <name>Лимит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лимит</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="beb5424d-d908-454e-8c4b-d851d1738cc2">
+    <name>Активна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активна</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d4713e16-e207-40f5-bfdf-72d0123df7f0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hpwa:HomePageWorkArea xmlns:hpwa="http://g5.1c.ru/v8/dt/hpwa">
+  <columns>
+    <items>
+      <form>DataProcessor.РабочаяМЦ.Form.Форма</form>
+      <height>9</height>
+      <visibility>
+        <common>true</common>
+      </visibility>
+    </items>
+    <items>
+      <form>Document.Затраты.Form.ФормаСписка</form>
+      <height>7</height>
+      <visibility>
+        <common>true</common>
+      </visibility>
+    </items>
+  </columns>
+</hpwa:HomePageWorkArea>

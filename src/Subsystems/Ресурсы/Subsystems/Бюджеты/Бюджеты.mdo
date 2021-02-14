@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bfc0b8a-a666-4253-9146-d7332933f463">
+  <name>Бюджеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бюджеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.События</content>
+  <content>Document.РегистрацияСобытия</content>
+  <content>AccumulationRegister.БюджетРесурсов</content>
+  <content>Enum.Министры</content>
+  <content>Catalog.ВариантыСобытий</content>
+  <content>Catalog.ОбъектЗатрат</content>
+  <parentSubsystem>Subsystem.Ресурсы</parentSubsystem>
+</mdclass:Subsystem>

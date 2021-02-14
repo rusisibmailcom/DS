@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15cecea1-b3eb-4d3c-9c82-e413fa711f61">
+  <producedTypes>
+    <objectType typeId="57ffd7c2-6d8c-4223-8cfb-2487bb2cfbde" valueTypeId="65736495-2477-4cec-bde6-c2eaab5a7af8"/>
+    <refType typeId="7ae722aa-203e-4dba-8791-45e6bfd725c3" valueTypeId="36ddcf80-2564-48e1-9807-13e8d3002528"/>
+    <selectionType typeId="6520ecf3-c843-45b3-93d1-f6c9c3f6b864" valueTypeId="3b66522f-0821-4b1b-9d17-c93925232aa8"/>
+    <listType typeId="9733f71b-36c4-4131-b730-f0cc428cc83f" valueTypeId="d6fd6f7d-7b4f-4864-9166-880bbc06bdd8"/>
+    <managerType typeId="daa84562-5505-4222-8502-ba72ac9d1cdd" valueTypeId="939aac69-269a-440e-8e3d-bdb5df757e57"/>
+  </producedTypes>
+  <name>Цели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цели</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Цели.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Цели.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Цели.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="779ccb69-e025-4af5-a5cf-ee357bf53143">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bbb21d6c-b46f-407e-9eef-145259971b59">
+    <name>Ценность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценность</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Ценности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fc06402a-7c44-4206-9901-76071e483641">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <comment>Зачем</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="d3120414-c197-4cd6-ad4f-949b21889023">
+    <producedTypes>
+      <objectType typeId="52ed1275-5cfa-4660-bfd4-b9cf75d16886" valueTypeId="009b6dbe-7ac7-4b4a-a177-c77639be2a76"/>
+      <rowType typeId="97fa6538-5d59-42d0-94b8-940de91b6e6a" valueTypeId="dfd59cfa-cfcf-403f-b43f-bd67f24aa065"/>
+    </producedTypes>
+    <name>ВложенностьЗачем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вложенность зачем</value>
+    </synonym>
+    <attributes uuid="1fabf290-cb14-4567-9288-23248f368d86">
+      <name>Цель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цель</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b2941712-a9a1-4643-9379-a9a9c1a07d12">
+      <name>Зачем</name>
+      <synonym>
+        <key>ru</key>
+        <value>Зачем</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6a83bbfb-6ea1-41ba-9e7d-e9b28342d090">
+      <name>Ценность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ценность</value>
+      </synonym>
+      <type>
+        <types>EnumRef.Ценности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="e91f22b9-6f49-441d-bd63-05c5fe3703b4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

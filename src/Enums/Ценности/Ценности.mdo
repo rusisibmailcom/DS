@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb422efa-efb9-4a1a-9179-f6e0daf19778">
+  <producedTypes>
+    <refType typeId="4f484591-0d69-4604-b510-73312026327f" valueTypeId="91b487ee-b45a-40bc-8519-aa9a6250e32e"/>
+    <listType typeId="87e39d73-4978-4200-b3be-98714f2cb1da" valueTypeId="38f471e2-04f4-4d69-95ca-2776b4c41676"/>
+    <managerType typeId="9ca69e54-19cf-4c61-988d-25f3da3d4934" valueTypeId="1750d8f2-f9ed-4b48-a82f-64499351a330"/>
+  </producedTypes>
+  <name>Ценности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ценности</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fdd82c9a-efce-421c-a9bf-e55221166284">
+    <name>Управление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1360e691-b412-406e-b19e-e1c183d816d1">
+    <name>Обслуживание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обслуживание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a2a7870e-d054-4a5f-bc51-7118a7d99b2e">
+    <name>Здоровье</name>
+    <synonym>
+      <key>ru</key>
+      <value>Здоровье</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba1f5870-bc8e-479b-b886-2fbea2891000">
+    <name>Семья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семья</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d6a9ff14-b323-4637-bcb6-07cb18c3dc9d">
+    <name>Труд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Труд</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f2fa3d9e-37be-4f23-8e53-b587e3879cf6">
+    <name>Проекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проекты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0625fb7b-c317-4acf-987c-df758862ba33">
+    <name>Благоустройство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Благоустройство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eba53e87-2a26-4f42-8b89-a4ac0a3c5e46">
+    <name>Комфорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комфорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d52c6d73-d4fc-4685-a4f7-dd78b1ecd129">
+    <name>Сладострастие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сладострастие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4c040369-fca6-4c92-9dc2-622fc15e9c18">
+    <name>Слава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слава</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

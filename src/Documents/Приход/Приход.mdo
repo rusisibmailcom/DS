@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0073841c-e61b-4a19-9712-8597c98accdc">
+  <producedTypes>
+    <objectType typeId="29011f85-06cf-4eea-bca0-491bc999e18c" valueTypeId="f2e260ca-6d4c-4cc2-a6b0-7480dbee1f30"/>
+    <refType typeId="abfe4f7d-5e33-4a12-9939-9677783f9a68" valueTypeId="8bfe1835-ffa1-455e-a825-c78a10a8d24e"/>
+    <selectionType typeId="565a434b-d033-465a-b781-3adae8e6b611" valueTypeId="fef85154-07b4-4818-86af-942d860c2ff3"/>
+    <listType typeId="ae5cf752-59c9-47c8-bce4-af42bc56c3a1" valueTypeId="027ecaf1-ee67-4012-897b-1aec55712fdc"/>
+    <managerType typeId="1719f8b7-109c-4b7a-be67-796f532b7642" valueTypeId="961a5284-1def-452a-9a10-ae20f7b58018"/>
+  </producedTypes>
+  <name>Приход</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приход</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Приход.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Приход.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.РН_МестаНакопленияДенег</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="c8a69db1-9db8-4678-a913-b196a84bfa6f">
+    <name>ОтКого</name>
+    <synonym>
+      <key>ru</key>
+      <value>От кого</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрагентМесто</types>
+      <types>CatalogRef.ФизЛица</types>
+      <types>String</types>
+      <types>CatalogRef.Люди</types>
+      <types>CatalogRef.Семья</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="41cad7c0-3d5f-4574-98d4-3ec8bc2c86c2">
+    <name>МестоХраненияДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения ДС</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИсточникХраненияДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a189b5fd-709a-469c-86e9-25f682760e27">
+    <name>ЗаЧто</name>
+    <synonym>
+      <key>ru</key>
+      <value>За что</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dff83298-315e-4e7b-a21d-d83403d56120">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e75f0c0e-c14c-4fc9-8950-95284e0ce77e">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

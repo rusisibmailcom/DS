@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4f72242-08ff-4cfc-a519-6feb4a699fd9">
+  <producedTypes>
+    <refType typeId="8a99fc5c-5b5d-454d-a68e-2c5516a347dc" valueTypeId="6ecdd353-3a4e-44ae-887c-f8e4f635de3a"/>
+    <listType typeId="901043e9-32d4-4eaa-80c3-89c762d1ece5" valueTypeId="4aa749d2-9e66-4d86-9245-b5203f47edba"/>
+    <managerType typeId="691d0a7e-3518-4b5f-91e3-8a6d0f014216" valueTypeId="65df5c34-b17d-412b-a4e3-2b10fcf7be57"/>
+  </producedTypes>
+  <name>КласиифПоПоловомуПризнаку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Класииф по половому признаку</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="197fa4e8-3cdd-46d6-8be0-cdd2e25920f5">
+    <name>Мужской</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мужской</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6f9ecf64-caa4-4991-8f70-722c5689550a">
+    <name>Женский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Женский</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bcf4e15e-329a-492b-b7a5-6d9d1deaf27c">
+    <name>Детская</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детская</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

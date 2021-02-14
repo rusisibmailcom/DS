@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6c33eb8-476e-4f77-b751-5fb19a5e41c3">
+  <producedTypes>
+    <objectType typeId="a8a7cc65-4277-4e58-b511-c369704ab15b" valueTypeId="7b1fb1de-8be7-4009-bc89-fec612fdbf26"/>
+    <refType typeId="2c50a69d-e474-417e-a030-d225f1fbc41d" valueTypeId="a0455e65-42dc-4e65-8c08-e2018b3a9548"/>
+    <selectionType typeId="4a5caedf-86d7-46ea-b5b3-3fb7c0a06de4" valueTypeId="6a2f2f62-e185-46e3-a76d-1e49ab48ab77"/>
+    <listType typeId="34f1ef53-346d-4080-bbdf-ebee955a41dc" valueTypeId="c874e73c-88cb-4b6a-8577-c51828d9b3a5"/>
+    <managerType typeId="65497590-2c4e-40ce-953e-9f08b5784fe1" valueTypeId="e99eedd4-08dc-4ed2-819d-78b15c7e9c52"/>
+  </producedTypes>
+  <name>Диагноз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диагноз</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Диагноз.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Диагноз.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Диагнозы</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

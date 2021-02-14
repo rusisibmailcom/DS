@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d0f8379-4ff2-4172-a2c0-2054c23105ee">
+  <producedTypes>
+    <objectType typeId="393e0400-ac41-445b-9741-00123346df28" valueTypeId="1c04a922-faef-4c03-b39b-05ec9338fa6d"/>
+    <refType typeId="534f88ec-cef5-4183-a5cf-77f446684407" valueTypeId="a6d41307-9973-4f7d-b0eb-f663abb2f5a0"/>
+    <selectionType typeId="c0a492de-5b6c-423a-8025-35c3d80b4dbd" valueTypeId="2eaee0ad-782f-4163-87bd-273586586ea6"/>
+    <listType typeId="c877936e-8020-448f-ade8-a3f451def6c6" valueTypeId="eb6864c1-7732-4362-bce4-c5cc9304e7a6"/>
+    <managerType typeId="607774d7-3d21-4837-b8ac-34fa8602d72d" valueTypeId="c1831cf7-0f93-490e-8e74-86a768c73deb"/>
+  </producedTypes>
+  <name>Лекарства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лекарства? Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Лекарства.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Лекарства.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Лекарство</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Лекарства</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Лекарства.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="d110c43e-a94b-4a8b-9881-e4c13af961e7">
+    <name>ВремяИспольз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время использ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ee4465d8-5cb6-4a56-a320-8c3c95e3df95">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПериоодИспользования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ПериоодИспользования.EnumValue.Месяц</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3cb2e478-23c2-45df-9b60-39b7095413e7">
+    <name>ЕдИзм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ед изм</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕденицаИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c41378e7-2998-4a82-9443-1d8e620f7d97">
+    <name>Объем</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4153c1a2-4546-446e-9e4b-7ebfb70f10e4">
+    <name>КолВУп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кол в уп</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e183ed6f-5d1f-4786-a36f-ba00687f6b99">
+    <name>ЕдИзмОбъема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ед изм объема</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕденицаИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="f1fcc87b-1051-4322-b1ed-e1f37c1c6175">
+    <producedTypes>
+      <objectType typeId="340ea42a-89fd-474e-9d77-58c3df9ce2e5" valueTypeId="e94b8a81-4e69-4584-869e-ab2e7a653919"/>
+      <rowType typeId="af0db5e7-6e7e-4545-ab16-a2fa20cbf225" valueTypeId="6962f4dd-b95a-4cb6-b945-1f2eb34b4aef"/>
+    </producedTypes>
+    <name>Применение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Применение</value>
+    </synonym>
+    <attributes uuid="900c2040-d8e1-4f06-b54f-ea850d2d46a1">
+      <name>Диагноз</name>
+      <synonym>
+        <key>ru</key>
+        <value>Диагноз</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Диагноз</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b894c0ea-1906-4f38-b62a-443eb78ec400">
+      <name>Рецепт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Рецепт</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <multiLine>true</multiLine>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2a78224f-6f3e-4de2-b191-dad5cb1791db">
+      <name>ЕдИзмВозраст</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ед изм возраст</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ПериоодИспользования</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="102e139a-b602-4c70-86cd-946ef675e1d1">
+      <name>ВозрастОт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Возраст от</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="630ca70e-c145-4c35-83c3-6c8e4a2554e3">
+      <name>ВозрастДо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Возраст до</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="846c42d2-ba83-41b1-a203-750e41d2b6a7">
+      <name>ЕдИзмДозы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ед изм дозы</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЕденицаИзмерения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="62c787d3-fa52-440e-9b61-496b59b40320">
+      <name>Доза</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доза</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="914f18a2-107e-4902-bf37-50e9f27571c8">
+      <name>Расход</name>
+      <synonym>
+        <key>ru</key>
+        <value>Расход</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="4ba7116d-1b35-48ae-bacc-5c5dcef8f38b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

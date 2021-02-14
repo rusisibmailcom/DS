@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26714b4e-97eb-4d3e-b216-1db048e004f8">
+  <producedTypes>
+    <objectType typeId="36fac112-e640-4567-a2bc-ce62090cf156" valueTypeId="47faf12d-df42-4d76-93a0-28d0cd728452"/>
+    <refType typeId="b2b93c6e-8a05-49c9-83f2-bc3f94c352bb" valueTypeId="bfdf4669-d0a8-4cf9-9d36-d907478feac2"/>
+    <selectionType typeId="3d1936ba-e37b-4a5d-9342-50a31a42a313" valueTypeId="2a2e609e-ff13-458a-a716-8ca179809a7a"/>
+    <listType typeId="aea6bb81-0a69-43ea-992f-7fcd968f6b35" valueTypeId="d69f603c-380b-4403-9761-9775ec85e73f"/>
+    <managerType typeId="7f6d0046-86aa-4c4b-9389-a39afb05911b" valueTypeId="e94ad1a6-7fdc-4bc2-97ce-d49f63c4f733"/>
+  </producedTypes>
+  <name>Перечисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перечисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Перечисления.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Перечисления.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.РН_МестаНакопленияДенег</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="c94479fb-8fc1-48f1-be13-162be923241d">
+    <name>ИсточникДС_Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник ДС получатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИсточникХраненияДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="23cc1eaa-e35e-4a01-b705-685f120ef52a">
+    <name>ИсточникДС_Отправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник ДС отправитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИсточникХраненияДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7791f68c-1dbb-43ca-acd1-020b3ca6d67a">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fb21d237-971a-4e62-b575-7115d6ec6801">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="68d45101-e389-49ac-9139-b0ebf00353ef">
+    <name>Отправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Семья</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="25fce4ba-a98a-4fbb-92eb-fd4cdc06b3d1">
+    <name>Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрагентМесто</types>
+      <types>CatalogRef.ФизЛица</types>
+      <types>String</types>
+      <types>CatalogRef.Семья</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a86bf354-7b08-48ff-9cf4-c060cf1f55e4">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18f9cc11-e54e-48b7-8595-d2aea44ef521">
+  <producedTypes>
+    <objectType typeId="a5a4416b-752c-4301-833b-1758c19b90f6" valueTypeId="e36b4032-513e-4c98-a75e-5a5cd9dea3c5"/>
+    <refType typeId="487c52b6-7a29-4437-aec4-7f329427faed" valueTypeId="8a5b4449-40d2-40c0-ab1e-f2c1ad4452d8"/>
+    <selectionType typeId="3441b468-8d07-4e2f-a104-b1fcfdcf2c96" valueTypeId="e1fea13e-b946-40dc-85f4-f50aa5864a29"/>
+    <listType typeId="ce2c8dcf-5b65-4c79-b8c2-3a0e55dd897a" valueTypeId="3bd4fa64-06b6-4cb7-b1df-6d80ae6a3242"/>
+    <managerType typeId="dec6257d-2146-4abb-b34d-0dc3a2f364cf" valueTypeId="9f5dede3-dcf6-4e0c-b72c-05b5031b4d8a"/>
+  </producedTypes>
+  <name>Улица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Улица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Улица.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Улица.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Районы</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

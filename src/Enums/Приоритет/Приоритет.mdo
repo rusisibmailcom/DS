@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="922401b6-d599-4854-8a8a-599fd28095f3">
+  <producedTypes>
+    <refType typeId="ebf845c4-3cdf-40ad-9ad4-6bf02d518349" valueTypeId="e93136d2-32c7-49eb-b733-3b0fb79e95c8"/>
+    <listType typeId="b10111ec-e94a-409f-bf74-40ea2aa7d9a1" valueTypeId="6c3fd7a2-569c-42bb-a58f-1be070799713"/>
+    <managerType typeId="de59aabe-c35e-4e96-b03e-f1abdbcad542" valueTypeId="73b0a011-bd89-476e-a35e-8f4618565f5b"/>
+  </producedTypes>
+  <name>Приоритет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритет</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d786e3ae-b0db-454b-b860-8f515e950d3b">
+    <name>Первый</name>
+    <synonym>
+      <key>ru</key>
+      <value>1</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bad99b55-ca1c-4ca1-a7d0-04651439c415">
+    <name>Второй</name>
+    <synonym>
+      <key>ru</key>
+      <value>2</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

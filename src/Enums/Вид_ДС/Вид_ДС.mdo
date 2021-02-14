@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cceb37d-8832-4936-a7a6-b2bd761baf1e">
+  <producedTypes>
+    <refType typeId="dfef8e67-4bef-40a3-b81f-636de5ce398c" valueTypeId="4d6c8aa4-2652-47e9-9143-43959cfa37a7"/>
+    <listType typeId="28a9e460-d6aa-4efe-aa92-e42368c747b8" valueTypeId="a2884f36-f0b8-4578-a6d6-2928e21a7388"/>
+    <managerType typeId="b20efe3e-7d14-45cd-a4ab-39c505c2b686" valueTypeId="727bf674-720b-4ba8-a123-094a3423528d"/>
+  </producedTypes>
+  <name>Вид_ДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид ДС</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="40af59c3-d89c-4e1e-9e1a-c3bb166cdf86">
+    <name>Наличные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0fb99ff0-8540-4a47-bab8-3c33ce70d4fb">
+    <name>РСБезналичные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Р/С Безналичные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="995f68c6-6051-431f-baae-936e5467d466">
+    <name>Электронные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aedf4106-b461-4b5b-88c1-95a712c04b63">
+    <name>Кредитные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кредитные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2728645d-3320-4b3c-bbe2-8aad019b1169">
+    <name>КартаБезналичные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пласт. Карта Безнал</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

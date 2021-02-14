@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1d889f0-1820-42c2-81a6-bf67b97aa296">
+  <producedTypes>
+    <selectionType typeId="04ced9f5-2ab5-4876-89d8-82bd8c93e137" valueTypeId="056766de-18ff-4f9e-bb2a-e92f5258f909"/>
+    <listType typeId="6ad2f8e4-ab06-4ad8-93ba-3ac4ba8dfe68" valueTypeId="c46ab189-252b-4f75-9769-a8ed8de2c3e9"/>
+    <managerType typeId="c9c2bff2-5c2e-4486-9dbf-20d95652eca5" valueTypeId="51423c2f-ca0c-46d6-83fd-04016490ad6f"/>
+    <recordSetType typeId="2ac0c433-eaaa-415a-ac08-299b48b8ad7a" valueTypeId="68718923-534a-4752-9cbe-53402c3771d4"/>
+    <recordKeyType typeId="44f7fe59-9e93-41fe-b6d0-884007991ccb" valueTypeId="f7f7b887-19d4-48c4-80f4-be4a49e2c66c"/>
+    <recordType typeId="88386cb5-f724-4031-835d-448c5dfe7107" valueTypeId="1cf51982-0629-41d4-a7d0-9ecae7f429b8"/>
+  </producedTypes>
+  <name>БюджетРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бюджет ресурсов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="bced18d1-5195-4a44-88e3-080737db6716">
+    <name>Р</name>
+    <synonym>
+      <key>ru</key>
+      <value>Деньги</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="fc4b9a41-4b90-48c1-9127-ac1566d2c5c7">
+    <name>Т</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="26ef07c1-ff2f-4fb2-af10-fe62081d601f">
+    <name>Министр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Министр</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СоветМинистров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="53872f03-f36a-47e6-9b7b-10652d6300fa">
+    <name>ОбъектЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект затрат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектЗатрат</types>
+      <types>CatalogRef.ДомашниеЖивотные</types>
+      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.Места_Объекты</types>
+      <types>CatalogRef.ФизЛица</types>
+      <types>CatalogRef.Семья</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="cf7c0136-180d-45bd-b791-e30a4bc3731c">
+    <name>Событие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектЗатрат</types>
+      <types>CatalogRef.События</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

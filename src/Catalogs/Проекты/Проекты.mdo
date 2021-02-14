@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f82f5e3-ebc1-4ccf-9184-a8a34e28ace7">
+  <producedTypes>
+    <objectType typeId="4d53a077-1db6-4760-aee2-2bb98a68d53b" valueTypeId="196e5500-c6a1-4e76-a82a-e1445af2e8ca"/>
+    <refType typeId="c3eca3a2-5c8c-43df-87f0-8ae84e3d770f" valueTypeId="a2d5daeb-f4fe-42ca-abcc-40f041360c4a"/>
+    <selectionType typeId="8c725e0c-4db6-4483-9ee3-cdf961ff0ecc" valueTypeId="6b89d230-5d20-4a11-8c99-6d86f42b692a"/>
+    <listType typeId="512af74f-6ea0-4b9d-8b1a-22fb9c259da8" valueTypeId="15e2fcce-3401-4664-a06d-9809130e05f3"/>
+    <managerType typeId="bc676dc9-1224-4fdb-a4af-c2d9e73d7000" valueTypeId="3502a65a-0336-414e-9873-edf3b0142d30"/>
+  </producedTypes>
+  <name>Проекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проекты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Проекты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Проекты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="36724771-515c-43c4-b0fa-fa6185ac9ed0">
+    <name>Цель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Цели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b64c3848-cb4e-41c7-aa7d-80193b07df9a">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

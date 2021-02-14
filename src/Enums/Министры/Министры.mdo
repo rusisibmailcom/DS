@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7973bac5-a25b-4a2d-b05f-9390baed04e0">
+  <producedTypes>
+    <refType typeId="376de96d-410b-4fe7-80db-1ce9cc008108" valueTypeId="ad2b73ad-1747-47d6-8eb4-9826e7f2b31f"/>
+    <listType typeId="f925e947-1261-47d1-a70f-5310b6d27459" valueTypeId="ae979c19-76ab-453a-a50b-f58669a3ac4c"/>
+    <managerType typeId="4b9edc17-4258-4ccd-8390-405247206ec3" valueTypeId="1194c93f-dff6-4a16-bd43-1514c6b931c7"/>
+  </producedTypes>
+  <name>Министры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Министры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="10be9c4f-bc85-4bdd-8d47-02d0a1708efb">
+    <name>Духовник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Духовник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="09a5a845-b461-4e9b-8a01-a9ac2a117c85">
+    <name>Здравоохранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Здравоохранения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3444c0b1-b894-4566-87a6-1ab8fc1d3f68">
+    <name>Семьи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семьи и отношений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="232f8dfe-a335-4642-9503-169a0b082435">
+    <name>Финансов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Финансов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

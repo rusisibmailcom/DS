@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd96a0af-9e15-4780-8696-fc80dcf741d2">
+  <producedTypes>
+    <selectionType typeId="e27186aa-ce17-488c-857a-c577bfd73753" valueTypeId="dbd9a7f3-a8ce-47a0-b569-0b7bc8e98e5e"/>
+    <listType typeId="69d6cced-6b21-4471-aae3-a95a81d721a3" valueTypeId="a4f6dc3e-395e-4990-a11b-804a3198fb6f"/>
+    <managerType typeId="e8d862b4-c590-4a04-98ad-ee60b2c46577" valueTypeId="5b0da6e5-c9d8-4903-9647-d1b363b2498b"/>
+    <recordSetType typeId="c09c4eae-04dd-4e26-9b68-fa1176abd036" valueTypeId="16083599-dea2-4079-9e6f-4473c273d35e"/>
+    <recordKeyType typeId="11b1b314-85ae-45a4-9994-37c90af3cb25" valueTypeId="e3e70a0c-c515-49d3-9987-a52f698fd293"/>
+    <recordType typeId="b2b2920b-5c5e-407f-aaf5-bdb3869130f4" valueTypeId="8f54990b-2c17-4b87-b2d5-923b064cb2a9"/>
+  </producedTypes>
+  <name>РН_МестаНакопленияДенег</name>
+  <synonym>
+    <key>ru</key>
+    <value>Р н места накопления денег</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="0b8f194a-6878-4c6a-8985-4fde35807f9a">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="b49b17e1-687a-4dba-93c5-3186364a2f66">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание ( за что) </value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="d6d1194d-6b1f-476b-90e4-6195f5c54837">
+    <name>МестоХраненияДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место хранения ДС</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИсточникХраненияДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="c1fd6f32-37e7-4376-b44e-a07b4171846e">
+    <name>ОтКогоКомуКуда</name>
+    <synonym>
+      <key>ru</key>
+      <value>От кого /кому / куда</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КонтрагентМесто</types>
+      <types>CatalogRef.ФизЛица</types>
+      <types>String</types>
+      <types>CatalogRef.Люди</types>
+      <types>CatalogRef.Семья</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

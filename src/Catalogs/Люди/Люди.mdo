@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="692054d0-b682-4e05-b371-350e8452fe3a">
+  <producedTypes>
+    <objectType typeId="94933dc7-fd85-423d-8313-72170fa5224f" valueTypeId="50e29e7d-b8d3-4303-b887-9b8d40e005cc"/>
+    <refType typeId="ae7db72c-3e36-440b-b0ba-ff31ca3c10ce" valueTypeId="170b6023-8083-4c96-b33a-ada1b9e23b07"/>
+    <selectionType typeId="f58159c8-d353-422c-8926-6bfd7cd9a2a9" valueTypeId="6692b28d-0701-44e1-bc82-0aceb7edd407"/>
+    <listType typeId="582edb72-8452-4df8-a6f1-48955b42a100" valueTypeId="0b60e3eb-fca5-4734-9cb3-57639288e933"/>
+    <managerType typeId="8ef33302-0137-4e57-b77f-6d4050af1419" valueTypeId="33952d8e-2034-453f-bdac-f70f5d62544c"/>
+  </producedTypes>
+  <name>Люди</name>
+  <synonym>
+    <key>ru</key>
+    <value>Люди</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Люди.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Люди.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a25fb0a1-7a14-4944-966f-748f60fd30bb">
+    <name>ФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>350</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9431c4db-642e-490d-8bc4-10dc575f6418">
+    <name>Идентификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="8d08cd1c-2902-4aaf-b96a-89997ab89f18">
+    <producedTypes>
+      <objectType typeId="c03e2f26-da19-4bda-9ba0-0072be961109" valueTypeId="a9062f48-414b-4f75-a202-f4aeb15d1c66"/>
+      <rowType typeId="f8971a26-6652-4c20-ab3f-d366e34daf51" valueTypeId="7a0f6151-2f3f-4d51-bc30-5962a6b50d48"/>
+    </producedTypes>
+    <name>КонтактнаяИнфо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактная инфо</value>
+    </synonym>
+  </tabularSections>
+</mdclass:Catalog>

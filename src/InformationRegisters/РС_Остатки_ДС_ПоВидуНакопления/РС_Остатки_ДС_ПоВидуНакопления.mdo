@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d28ac25d-d620-4bf3-93d4-68f4f6ac4b39">
+  <producedTypes>
+    <selectionType typeId="d2d17eaf-8501-4c85-899f-de6136cd42e5" valueTypeId="02a710d4-da1d-4de3-8f8e-ae6eaa187aca"/>
+    <listType typeId="c03fd114-65db-445e-8bd9-4ab4851f224c" valueTypeId="5cdc6e82-2ff1-4301-bc5e-fc31e7622c32"/>
+    <managerType typeId="a784f6a6-7802-42e6-83ea-220508a0d89c" valueTypeId="bb7dd932-4c32-4116-bd3f-6028419190e2"/>
+    <recordSetType typeId="0c244446-b661-4e68-9a7e-79ae09c22946" valueTypeId="7d711946-d669-461c-9964-0ac9da24df37"/>
+    <recordKeyType typeId="9e1fcc6a-bddd-4774-9dc7-d88b0247a65e" valueTypeId="ac72269c-2445-43c4-9626-acda5b3ed8e9"/>
+    <recordType typeId="0983bc00-5be9-4ccb-81df-6f4fadd31732" valueTypeId="b0cc5236-45a4-4371-9a37-70664f87b52e"/>
+    <recordManagerType typeId="19ad6dfd-ce74-4173-a495-80a0be41ea8a" valueTypeId="cb7a5f87-9f35-48c7-a559-15728aec57b5"/>
+  </producedTypes>
+  <name>РС_Остатки_ДС_ПоВидуНакопления</name>
+  <synonym>
+    <key>ru</key>
+    <value>РС остатки ДС по виду накопления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d679df03-5ab9-46c7-96ec-0e6167cfbd3a">
+    <name>СуммаОстаток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма остаток</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="cdf6312a-e0f6-4499-878b-f8a8298bf011">
+    <name>ВидИсточникаЗраненияДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид источника зранения ДС</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИсточникХраненияДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
